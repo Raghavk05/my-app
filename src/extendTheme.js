@@ -1,4 +1,12 @@
+import * as React from 'react'
+
 import { extendTheme } from '@chakra-ui/react';
+
+
+const config = {
+  initialColorMode: 'light',
+  useSystemColorMode: false,
+}
 
 const customTheme = extendTheme({
   colors: {
@@ -35,6 +43,7 @@ const customTheme = extendTheme({
     extrabold: 800,
     black: 900,
   },
+  config
 });
 
 export default customTheme;
