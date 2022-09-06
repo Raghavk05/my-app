@@ -4,7 +4,7 @@ import { extendTheme } from '@chakra-ui/react';
 
 
 const config = {
-  initialColorMode: 'light',
+  initialColorMode: 'dark',
   useSystemColorMode: false,
 }
 
@@ -27,10 +27,6 @@ const customTheme = extendTheme({
       200: '#f77070',
       600: '#C53030',
     },
-  },
-  fonts: {
-    body: 'oswald',
-    heading: 'oswald',
   },
   fontWeights: {
     hairline: 100,
